@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.mainnavbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.mainnavbar span {
+    margin-left: 20px;
+}
+
+.mainnavbar button {
+    margin-left: 20px;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.mainBox {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttom {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.ulBox {
+    width: 1000px;
+}
+
+.buttom ul {
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    /* height: 40px; */
+    padding: 20px;
+}
+
+.buttom ul li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttom li button {
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.valueBox button {
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 20px;
+    /* bottom: 0; */
+}
+
+.valueBox input {
+    margin: 20px;
+}
+
+.valueBox img {
+    height: 20px;
+    width: 20px;
+}
+
+.totalvalue {
+    display: flex;
+    flex-direction: column;
+}
+
+.valueBox {
+    margin: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 20px;
+    /* width: 300px; */
+}
+
+#boxvalue1 {
+    background: #CAC531;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F3F9A7, #CAC531);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#boxvalue2 {
+    background: #11998e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#boxvalue3 {
+    background: #ED213A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
