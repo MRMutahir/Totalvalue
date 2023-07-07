@@ -29,13 +29,15 @@
 }
 
 .buttom {
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
     margin: 0 auto;
 }
 
-.ulBox {
-    width: 1000px;
+f #ulBox {
+    width: 80%;
+    margin: 40px;
+    line-height: 40px;
 }
 
 .buttom ul {

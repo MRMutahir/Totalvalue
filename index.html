@@ -14,22 +14,25 @@
         <div class="navChild child1">
             Good AfterNone Mutahir
         </div>
-        <div class="navChild child2"><img height="60px" width="80px" src="../../SMIT PracticeProject/Portfolio/img/logo2.png" alt=""></div>
+        <div class="navChild child2"><img height="60px" width="80px" src=" pic-removebg-preview.png" alt=""></div>
         <div class="navChild child3"><button>User</button> <button>PIN</button></div>
         <div class="navChild child4"> <span><img  height="20px" width="40px" src="./pic-removebg-preview.png" alt=""></span></div>
     </div>
     <div class="mainBox">
         <div class="boxitem1 boxItem">
             <h1>Current Balance</h1>
-            <p>At 3-6-2023</p>
+            <!-- <p>At 3-6-2023</p> -->
         </div>
         <div class="boxitem2 boxItem">
-            <h1> 6453$-6446</h1>
+            <h1 id="money">000 <small><b>RS</b></small></h1>
         </div>
     </div>
     <div class="buttom">
-        <div class="ulBox">
-            <ul>
+        <div>
+            <ul id="ulBox">
+            </ul>
+            <center><button id="sum" onclick="suM()">result value</button></center>
+            <!-- <ul>
                 <li><button>Disccount</button>
                     <p>3-6-2023</p>
                     <h4>34$56-89</h4>
@@ -78,18 +81,23 @@
                     <h4>34$56-89</h4>
                 </li>
 
-            </ul>
+            </ul> -->
         </div>
         <div class="totalvalue">
             <div class="valueBox" id="boxvalue1">
-                <h1>Transfer Money</h1> <input type="text" name="" id=""> Transfer To <input type="text" name="" id=""> Amount<button><img src="./pic-removebg-preview.png" alt="">
-                </button></div>
-            <div class="valueBox" id="boxvalue2">
+                <h1>Transfer Money</h1>
+                <div>salary<input type="text" name="" id="salary"> </div>
+                <div>Expens<input type="text" name="" id="Expens"> </div>
+                <button id="f_1_btn"><img src="./pic-removebg-preview.png" alt="">
+                </button>
+            </div>
+            <!-- <div class="valueBox" id="boxvalue2">
                 <h1>Request Loon</h1> <input type="text" name="" id=""> Amount <button><img src="./pic-removebg-preview.png" alt="">
                 </button></div>
             <div class="valueBox" id="boxvalue3">
                 <h1>Close account</h1> <input type="text" name="" id="">Confirm user <input type="text" name="" id=""> Confirm PIN<button><img src="./pic-removebg-preview.png" alt="">
-                </button></div>
+                </button>
+            </div> -->
         </div>
     </div>
 </body>
